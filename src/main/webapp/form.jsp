@@ -11,7 +11,7 @@
     <title>Date</title>
 </head>
 <body>
-<form method="post" action="http://localhost:8080/form">
+<form method="post" action="http://localhost:8080/first/form">
 <%--    <input name="year" type="number">--%>
 <%--    <br><br>--%>
 <%--    <input name="month" type="number">--%>

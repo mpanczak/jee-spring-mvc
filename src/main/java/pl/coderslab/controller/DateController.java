@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDate;
 
 @Controller
+@RequestMapping("/first")
 public class DateController {
     @GetMapping("/form")
     public String hello() {
