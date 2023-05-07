@@ -12,14 +12,14 @@
 </head>
 <body>
 <form method="post" action="http://localhost:8080/form">
-    <input name="year" type="number">
-    <br><br>
-    <input name="month" type="number">
-    <br><br>
-    <input name="day" type="number">
-    <br><br>
-<%--    <input name="date" type="text">--%>
+<%--    <input name="year" type="number">--%>
 <%--    <br><br>--%>
+<%--    <input name="month" type="number">--%>
+<%--    <br><br>--%>
+<%--    <input name="day" type="number">--%>
+<%--    <br><br>--%>
+    <input name="date" type="text">
+    <br><br>
     <input name="submit" type="submit">
 </form>
 </body>

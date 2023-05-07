@@ -14,8 +14,8 @@ public class DateController {
 
     @PostMapping(path = "/form")
     @ResponseBody
-    String showDate(@RequestParam int year, @RequestParam int month, @RequestParam int day) {
-        LocalDate localDate = LocalDate.of(year, month, day);
+    String showDate(@RequestParam String date) {
+        LocalDate localDate = LocalDate.parse(date);
         return localDate.toString();
     }
 }
