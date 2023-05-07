@@ -18,7 +18,7 @@
 <%--    <br><br>--%>
 <%--    <input name="day" type="number">--%>
 <%--    <br><br>--%>
-    <input name="date" type="text">
+    <input name="date" type="date">
     <br><br>
     <input name="submit" type="submit">
 </form>

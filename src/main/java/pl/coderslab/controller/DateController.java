@@ -18,5 +18,6 @@ public class DateController {
     String showDate(@RequestParam String date) {
         LocalDate localDate = LocalDate.parse(date);
         return localDate.toString();
+//        return date.toString();
     }
 }
