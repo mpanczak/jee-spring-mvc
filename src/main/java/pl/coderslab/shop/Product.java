@@ -3,8 +3,15 @@ package pl.coderslab.shop;
 public class Product {
     String name;
     double price;
+    long id;
 
-    public Product() {
+    public Product(Product product) {
+    }
+
+    public Product(String name, double price, long id) {
+        this.name = name;
+        this.price = price;
+        this.id = id;
     }
 
     public Product(String name, Double price) {
@@ -26,5 +33,9 @@ public class Product {
 
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    public long getId() {
+        return id;
     }
 }

@@ -6,8 +6,13 @@
 </head>
 <body>
 <h1>Koszyk</h1>
+<p>
+    W koszyku jest ${prodQuant} pozycji.<br>
+    W koszyku jest ${allProd} produktów.<br>
+    Wartość koszyka to: ${total} zł.<br>
+</p>
 <c:forEach var="item" items="${cartItems}">
-    <h1>${item.quantity} | ${item.product.name} w cenie ${item.product.price}</h1>
+    <h4>${item.quantity} | ${item.product.name} w cenie ${item.product.price} zł.</h4>
 </c:forEach>
 </body>
 </html>
